@@ -10,7 +10,9 @@
 
 <?php
     // outputs something like:
-    //  hammer, nail, nuts, bolts
+    //  [1] hammer
+    //  [5] nail
+    //  [7] nuts
     foreach ($products as $product){
         print '<p>';
         print 'id [' . $product->getId() . '] ';
